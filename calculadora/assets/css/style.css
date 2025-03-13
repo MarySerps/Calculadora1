@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calculadora {
+    display: grid;
+    grid-template-areas: 
+        "a a a a" 
+        "b c d e"
+        "f g h i"
+        "j k l m"
+        "n o p q"
+        "r s t u"
+        "v w z z"
+    ;
+    grid-template-rows: 7.5vh 5vh 5vh 5vh 5vh 5vh 5vh;
+    grid-template-columns: 10vh 10vh 10vh 10vh;
+}
+.calculadora-visor#calculadora-visor {
+    grid-area: a;
+    text-align: right;
+    font-size: 1rem;
+}
+.calculadora-POT#calculadora-POT {
+    grid-area: b;
+}
+.calculadora-RAD#calculadora-RAD {
+    grid-area: c;
+}
+.calculadora-LOG#calculadora-LOG {
+    grid-area: d;
+}
+.calculadora-EXP#calculadora-EXP {
+    grid-area: e;
+}
+.calculadora-MAIS#calculadora-MAIS {
+    grid-area: f;
+}
+.calculadora-MENOS#calculadora-MENOS {
+    grid-area: g;
+}
+.calculadora-VEZES#calculadora-VEZES {
+    grid-area: h;
+}
+.calculadora-DIVIDIR#calculadora-DIVIDIR {
+    grid-area: i;
+}
+.calculadora-NOVE#calculadora-NOVE {
+    grid-area: j;
+}
+.calculadora-OITO#calculadora-OITO {
+    grid-area: k;
+}
+.calculadora-SETE#calculadora-SETE {
+    grid-area: l;
+}
+.calculadora-AP#calculadora-AP {
+    grid-area: m;
+}
+.calculadora-SEIS#calculadora-SEIS {
+    grid-area: n;
+}
+.calculadora-CINCO#calculadora-CINCO {
+    grid-area: o;
+}
+.calculadora-QUATRO#calculadora-QUATRO {
+    grid-area: p;
+}
+.calculadora-FP#calculadora-FP {
+    grid-area: q;
+}
+.calculadora-TRES#calculadora-TRES {
+    grid-area: r;
+}
+.calculadora-DOIS#calculadora-DOIS {
+    grid-area: s;
+}
+.calculadora-UM#calculadora-UM {
+    grid-area: t;
+}
+.calculadora-PONTO#calculadora-PONTO {
+    grid-area: u;
+}
+.calculadora-C#calculadora-C {
+    grid-area: v;
+}
+.calculadora-ZERO#calculadora-ZERO {
+    grid-area: w;
+}
+.calculadora-IGUAL#calculadora-IGUAL {
+    grid-area: z;
+}
